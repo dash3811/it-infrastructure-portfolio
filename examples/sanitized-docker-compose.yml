@@ -1,0 +1,23 @@
+# Sanitized Docker Compose example.
+# Replace placeholders before using.
+# Do not publish real passwords, tokens, domains, IP addresses, or volume paths.
+
+services:
+  example-service:
+    image: example/image:latest
+    container_name: example-service
+    restart: unless-stopped
+    environment:
+      - TZ=America/Chicago
+      - EXAMPLE_USERNAME=${EXAMPLE_USERNAME}
+      - EXAMPLE_PASSWORD=${EXAMPLE_PASSWORD}
+    volumes:
+      - ./config/example-service:/config
+    ports:
+      - "8080:8080"
+    networks:
+      - infrastructure
+
+networks:
+  infrastructure:
+    driver: bridge
