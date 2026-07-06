@@ -21,17 +21,3 @@ Synology NAS is used for centralized storage, application data, backups, media s
 - Monitor disk health and storage usage
 - Troubleshoot degraded volume or drive warnings
 
-## Documentation To Add
-
-- Sanitized shared folder layout
-- Backup strategy
-- Storage health monitoring process
-- Recovery procedure for critical files
-
-## Do Not Publish
-
-- Serial numbers
-- Drive model serials
-- Real share names if sensitive
-- Usernames
-- Screenshots showing personal files
