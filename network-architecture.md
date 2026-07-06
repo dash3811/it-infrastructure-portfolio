@@ -19,9 +19,9 @@ Use sanitized examples only.
 
 | VLAN | Purpose | Example Subnet |
 |---|---|---|
-| VLAN 10 | Trusted / Main devices | 10.0.10.0/24 |
+| VLAN 10 | Default | 10.0.10.0/24 |
 | VLAN 20 | IoT / Smart devices | 10.0.20.0/24 |
-| VLAN 30 | Servers / Lab services | 10.0.30.0/24 |
+| VLAN 30 | Guest Network | 10.0.99.0/24 |
 
 ## Services
 
@@ -55,13 +55,3 @@ Allow IoT VLAN -> Home Assistant on required port
 Block IoT VLAN -> Trusted VLAN
 Block Internet -> internal services unless proxied/VPN protected
 ```
-
-## What Not to Publish
-
-- Public IP address
-- Real internal IP addresses
-- Real domain names
-- Device MAC addresses
-- Router screenshots with identifying information
-- Wi-Fi SSIDs or passwords
-- VPN configuration files
