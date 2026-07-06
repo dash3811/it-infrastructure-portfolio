@@ -27,7 +27,6 @@ The environment is intentionally documented using sanitized examples. No private
 - [Home Assistant Automation](home-assistant.md)
 - [Monitoring](monitoring.md)
 - [Backup and Recovery](backup-and-recovery.md)
-- [Troubleshooting Case Studies](troubleshooting-case-studies.md)
 
 ## Purpose
 
